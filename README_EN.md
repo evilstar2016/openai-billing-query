@@ -1,8 +1,14 @@
 # openai-billing-query
 Batch visualization query for openai (chatgpt) balance, supporting display of total amount, used amount, remaining amount, usage ratio, expiration time, GPT-4, and whether it is bound with a card.
 
+# After the update on July 22nd, you need to log in to your account once. Use F12 to view the session code and use the session code for queries.
+
+After the update on July 22nd, the key verification rule has been removed. You need to use the session code for queries. The key can only be used to query the total amount, binding of cards, GPT4, and organization ID.
+
+![1689957580942.png](https://cdn-img.czl.net/2023/07/22/64bab4daba587.png)
+
 # Query example image
-![image](https://github.com/woodchen-ink/openai-billing-query/assets/95951386/3926c794-114b-4666-ad7b-42ad30ec5694)
+![1688789680187.png](https://cdn-img.czl.net/2023/07/08/64a8e2b180068.png)
 
 # Supports custom reverse proxy interfaces
 Add your own interface code in line 361.
